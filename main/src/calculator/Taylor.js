@@ -2,9 +2,6 @@ import React from 'react'
 import { useState } from 'react'
 import { evaluate, derivative,factorial } from 'mathjs'
 
-
-
-
 export default function Taylor() {
     const [equation, setEquation] = useState();
     const [x0, setX0] = useState();
