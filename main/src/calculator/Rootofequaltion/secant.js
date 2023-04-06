@@ -49,9 +49,9 @@ import {
                                 return  (
                                 <tr key={index}>
                                     <td>{element.iteration}</td>
-                                    <td>{element.X1}</td>
-                                    <td>{element.X0}</td>
-                                    <td>{element.E}</td>
+                                    <td>{element.X1.toPrecision(6)}</td>
+                                    <td>{element.X0.toPrecision(6)}</td>
+                                    <td>{element.E.toPrecision(6)}</td>
                                 </tr>)
                             })}
                         </tbody>
